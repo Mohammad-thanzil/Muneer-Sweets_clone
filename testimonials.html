@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MUNEER SWEET</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="short icon"  href="/Sweets Images/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="background-color: #0000006d; opacity: 0.9;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="bg-logo" src="/Sweets Images/logo/logo.png" alt="Logo" width="50" height="50">
+          Muneer Sweets</a>
+        </div> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link "  href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              catogries
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/savouries.html">Savouries</a></li>
+              <li><a class="dropdown-item" href="/sweet.html">Sweets</a></li>
+            </ul>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success me-2" type="submit">Search</button>
+          <button type="button" class="btn btn-outline-primary"  data-bs-toggle="modal" data-bs-target="#kali1">login</button>
+        
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+       <!-- login Modal -->
+<div class="modal fade" id="kali1" tabindex="-1" aria-labelledby="loginba" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginma">login</h1>
+        <button type="button" class="btn-close bg-danger"  data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">E-mail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+       </form>
+     
+       
+     
+         
+
+       
+
+        <div class="form-check my-3 ">
+          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label d-flex justify-content-between" for="flexCheckDefault">
+          remember me
+          <p><a class="link-opacity-100" href="#">Forgot password?</a></p>
+        </label>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-outline-success" type="button">login</button>
+        </div>
+       
+      </div>
+     
+      <div class="modal-footer" id="nextpage">
+        <p>You don't have an account?</p>
+        <button type="button" class="btn btn-light"  data-bs-toggle="modal" id="signupkaro" data-bs-target="#kali"><a class="link-opacity-100 " href="#kali">Create one</a></button>
+         
+
+       
+       
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- sign up -->
+
+<div class="modal fade" id="kali" tabindex="-1" aria-labelledby="signupba" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="signba">Sign up</h1>
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <form class="row g-3">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Your Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Password</label>
+              <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"> Confirm Password</label>
+              <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+         </form>
+         
+         
+         
+ 
+          <div class="form-check my-3 ">
+            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label d-flex justify-content-between" for="flexCheckDefault">
+            remember me
+          </label>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-success" type="button">Sign up</button>
+          </div>
+         
+         
+        </div>
+       
+        <div class="modal-footer " id="nextpage">
+          <p>Already have an account</p>
+        <button type="button" class="btn btn-light"  data-bs-toggle="modal" id="signupkaro" data-bs-target="#kali1"><a class="link-opacity-100 " href="#kali1">Log in</a></button>
+ 
+         
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row featurette my-5 w-100 d-flex justify-content-center align-items-center">
+  <h3 class="corporateTitle" id="testimonial" style="color:#14c39b;">Testimonials</h3>
+
+  <div class="col-md-7" id="ali">
+    <h2 class="featurette-heading fw-normal lh-1">Sweets Is All About Get Together. <br><span
+        class="text-body-secondary">Wide Varieties of Sweets and Delicious Our Own Farm.</span></h2>
+    <p class="lead">Best offer for our Stories.</p>
+  </div>
+
+  <div class="col-md-5 int">
+    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+      height="200" src="/Sweets Images/div/1.jpg" alt="">
+    <title>Placeholder</title>
+  </div>
+  <div class="row featurette d-flex justify-content-center align-items-center ">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See
+          for yourself.</span></h2>
+      <p class="lead">Collections of delectable Sweets Savouries and bakes Good Sweets for a good day.....</p>
+    </div>
+    <div class="col-md-5 order-md-1 int">
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+        height="500" src="/Sweets Images/div/2.jpg" alt="">
+    </div>
+  </div>
+  <div class="row featurette my-5 w-100 d-flex justify-content-center align-items-center">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">Sweets Cant define religious. <span
+          class="text-body-secondary">If There Is Eid Or Diwali Sweet Is Boost Up the Vibe.</span></h2>
+      <p class="lead">Best offer for our Stories.</p>
+    </div>
+    <div class="col-md-5 int">
+      <img id="sam" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+        width="500" height="300" src="/Sweets Images/div/4.jpg" alt="">
+      <title>Placeholder</title>
+    </div>
+    <hr class="my-4">
+
+    <h3 class="corporateTitle" id="testimonial" style="color:#14c39b;">Satisfied Customer Review oF</h3>
+    <p class="corporateTitle" id="testimonial" style="color:#14c39b;">Muneer Sweets</p>
+    <div class="youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dn2g38TD0ZU?si=xzjAjBrApG2eyiqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/iu6lSTXA7yk?si=qpTPXKnQPMOrmqfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/aRTipK-SPE4?si=ncYvAXLge5Q07Siu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/bmtUxD73GQ4?si=7n2F41lhNte7Y0Bz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+     <div class="accordion">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What types of sweets does Muneer Sweet offer?
+
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Muneer Sweet offers a wide variety of sweets to satisfy your sweet tooth. Our selection includes traditional Indian sweets like Gulab Jamun, Rasgulla, and Jalebi. We also offer a range of mouthwatering desserts such as cakes, pastries, and ice creams. Whether you're craving traditional classics or modern treats, we have something for everyone.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Can I place an order online for your sweets?
+
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Yes, you can conveniently place an order for our delicious sweets online through our website. We've designed our online ordering system to make it easy for you to browse our menu, select your favorite sweets, and complete your order with just a few clicks. You can also choose between delivery and pickup options to suit your preferences. We're committed to providing a seamless online shopping experience for our valued customers.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What sets Muneer Sweet apart from other sweet shops?
+
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">At Muneer Sweet, our 30 years of experience in the art of sweet making sets us apart. Since our establishment, we have been dedicated to crafting sweets that not only taste divine but also carry the essence of tradition and quality. Our decades of experience have allowed us to perfect our recipes, techniques, and flavors. We've also had the privilege of serving generations of families and communities, earning their trust and loyalty along the way. When you choose Muneer Sweet, you're choosing three decades of passion, expertise, and a commitment to delivering the finest sweets to your table.
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3" id="sector">
+          <h5>Sector</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Take away</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">legecy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">product </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facalties</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Info</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Corporate</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cookie Settings</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">legal</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between border-top" id="fast">
+        <p>© 2023 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/pirate_of_mylife/"> <i class="fa fa-instagram"></i> <class="bi" width="24" height="24"><use xlink:href="#twitter"></use>  </a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/pirate_of_mylife/"> <i class="fa fa-twitter"></i> <class="bi" width="24" height="24"><use xlink:href="#twitter"></use>  </a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/pirate_of_mylife/"> <i class="fa fa-whatsapp"></i> <class="bi" width="24" height="24"><use xlink:href="#twitter"></use>  </a></li>
+        </ul>
+      </div>
+    </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

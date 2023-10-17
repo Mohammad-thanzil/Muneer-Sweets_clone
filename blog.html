@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="background-color: #0000006d; opacity: 0.9;">
+    <div class="container-fluid">
+          <div class="logo">
+            <a class="navbar-brand" href="#"><img class="bg-logo" src="/Sweets Images/logo/muneer_logo-removebg-preview.png" alt="">Muneer Sweets</a></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="/index.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link "  href="/testimonials.html">Testimonials</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  catogries
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Snacks</a></li>
+                  <li><a class="dropdown-item" href="#">Candies</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Savouries</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success me-2" type="submit">Search</button>
+              <button type="button" class="btn btn-outline-primary"  data-bs-toggle="modal" data-bs-target="#kali1">login</button>
+            
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    
+    
+           <!-- login Modal -->
+    <div class="modal fade" id="kali1" tabindex="-1" aria-labelledby="loginba" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="loginma">login</h1>
+            <button type="button" class="btn-close bg-danger"  data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form class="row g-3">
+              <div class="form-group">
+                <label for="exampleFormControlInput1">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Password</label>
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+           </form>
+         
+           
+         
+             
+    
+           
+    
+            <div class="form-check my-3 ">
+              <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label d-flex justify-content-between" for="flexCheckDefault">
+              remember me
+              <p><a class="link-opacity-100" href="#">Forgot password?</a></p>
+            </label>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-outline-success" type="button">login</button>
+            </div>
+           
+          </div>
+         
+          <div class="modal-footer" id="nextpage">
+            <p>You don't have an account?</p>
+            <button type="button" class="btn btn-light"  data-bs-toggle="modal" id="signupkaro" data-bs-target="#kali"><a class="link-opacity-100 " href="#kali">Create one</a></button>
+             
+    
+           
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- sign up -->
+    
+    <div class="modal fade" id="kali" tabindex="-1" aria-labelledby="signupba" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="signba">Sign up</h1>
+              <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+             <form class="row g-3">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Your Name</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Password</label>
+                  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"> Confirm Password</label>
+                  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+             </form>
+             
+             
+             
+     
+              <div class="form-check my-3 ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label d-flex justify-content-between" for="flexCheckDefault">
+                remember me
+              </label>
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-outline-success" type="button">Sign up</button>
+              </div>
+             
+             
+            </div>
+           
+            <div class="modal-footer " id="nextpage">
+              <p>Already have an account</p>
+            <button type="button" class="btn btn-light"  data-bs-toggle="modal" id="signupkaro" data-bs-target="#kali1"><a class="link-opacity-100 " href="#kali1">Log in</a></button>
+     
+             
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+          <img src="..." class="object-fit-contain border rounded" alt="...">
+          <img src="..." class="object-fit-cover border rounded" alt="...">
+          <img src="..." class="object-fit-fill border rounded" alt="...">
+          <img src="..." class="object-fit-scale border rounded" alt="...">
+          <img src="..." class="object-fit-none border rounded" alt="...">
+
+
+
+
+
+
+
+
+
+
+
+
+          
+Title: "Satisfy Your Sweet Tooth at Muneer Sweet Shop: A Taste of Tradition"
+
+Introduction:
+
+There's something magical about stepping into a traditional sweet shop, where the air is filled with the sweet aroma of freshly prepared confections, and the display cases are adorned with an array of colorful, tempting treats. In the heart of [Your City], there's a sweet haven that has been captivating the taste buds of locals and tourists alike for generations - Muneer Sweet Shop. Join us as we explore the history, offerings, and the delightful experience that awaits you at Muneer Sweet Shop.
+
+A Glimpse into History:
+
+Muneer Sweet Shop has a rich and storied history that spans over [number of years] years. Established in [year], it was founded by [founder's name], a passionate confectioner with a dream of sharing the exquisite flavors of their homeland with the world. What started as a humble storefront has now become an iconic institution, cherished for its commitment to preserving traditional recipes and delivering unparalleled quality.
+
+The Art of Traditional Sweets:
+
+At Muneer Sweet Shop, tradition is the cornerstone of every sweet creation. Their master chefs take pride in using time-honored recipes passed down through generations. From the moment you walk in, you'll be greeted by a wide assortment of sweets, each crafted with care and precision.
+
+1. **Gulab Jamun**: These soft, syrup-soaked dough balls melt in your mouth, leaving behind a heavenly sweetness that lingers.
+
+2. **Barfi**: Muneer Sweet Shop offers a variety of barfi flavors, from classic pistachio to decadent chocolate, ensuring there's something to suit every palate.
+
+3. **Jalebi**: The perfectly crispy and golden jalebis are a true delight for those who crave a hint of tangy sweetness.
+
+4. **Ladoo**: Experience the blissful simplicity of their ladoos, available in flavors like coconut, besan, and motichoor.
+
+5. **Halwa**: The halwa at Muneer Sweet Shop is renowned for its rich, aromatic flavors. The ghee-infused goodness will transport you to another world.
+
+Modern Twist on Tradition:
+
+While Muneer Sweet Shop is dedicated to preserving traditional recipes, they also embrace innovation to cater to evolving tastes. You can find sugar-free and low-fat options for those seeking a guilt-free indulgence. Additionally, they offer beautifully packaged sweets for gifting, making them a go-to choice for celebrations and special occasions.
+
+The Warmth of Tradition:
+
+Visiting Muneer Sweet Shop is not just about satisfying your sweet cravings; it's about experiencing the warmth of tradition and hospitality. The staff at the shop are friendly and always ready to assist you in selecting the perfect sweet treat.
+
+Conclusion:
+
+Muneer Sweet Shop is more than just a place to buy sweets; it's a journey through time and tradition. With a commitment to quality and a passion for preserving the flavors of the past, Muneer Sweet Shop continues to be a beloved institution in [Your City]. So, the next time you're in the mood for a sweet indulgence or need the perfect gift for a loved one, step into Muneer Sweet Shop and savor the timeless delights that have been enchanting taste buds for generations.
+            
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  
+</div>
+</div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>

@@ -1,0 +1,662 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* .container-fluid {
+  height: 7vh;
+} */
+
+.carousel {
+  margin-bottom: -34px;
+}
+
+/* .logo img {
+  width: 10%;
+  height: 2ovh;
+} */
+
+.int img:hover {
+  transform: scale(105%);
+  transition: all 0.2s;
+}
+
+.mysore {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  gap: 3%;
+  overflow: hidden;
+
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 100%;
+  height: 350px;
+}
+
+.mysorepak img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.mysorepak img:hover {
+  transform: scale(95%);
+  transition: all 0.8s;
+}
+
+#para {
+  height: 50px;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Yuji Hentaigana Akari';
+}
+
+
+.gift {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+
+}
+
+.test h3 {
+  margin-left: 150px;
+}
+
+.gift .boxrap {
+  width: 20%;
+}
+
+.boxrap img {
+  width: 100%;
+}
+
+#col {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.corporateLinkBtn {
+  background-color: #00a77da9;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 200px;
+}
+
+.corporate_content_Wrapper {
+  margin-top: 6.5rem;
+}
+
+.corporateDesc {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.corporateLinkBtn:hover {
+  background-color: #00a77e;
+  transition: 0.3s;
+}
+
+.row {
+  margin-bottom: 70px;
+}
+
+#inbox {
+  margin-bottom: 4%;
+  width: 110%;
+}
+
+.corporateDesc-1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.sov {
+  font-size: 20px;
+  /* font-weight: bold; */
+  align-items: center;
+  margin: 0;
+}
+
+#shef {
+  margin-top: 30px;
+  margin-left: 90px;
+  width: 60%;
+}
+
+#shef:hover {
+  transform: scale(105%);
+  transition: all 0.8s;
+}
+
+#shef h2 {
+  font-size: 2px;
+}
+
+#normal {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 80px;
+  width: 50%;
+}
+
+#console-1 {
+  font-size: 15px;
+  width: 90%;
+}
+
+.boxrap:hover {
+  transform: scale(95%);
+  transition: all 0.8s;
+}
+
+.d {
+  display: flex;
+  gap: 180px;
+}
+
+.corporateImg {
+  transition: 0.6s ease all;
+}
+
+.corporateImg:hover {
+  transform: scale(105%);
+}
+
+#jav img {
+  width: 100%;
+}
+
+#fast {
+  color: black;
+  margin-bottom: -100px;
+}
+
+.my-5 {
+  margin-bottom: 0rem !important;
+}
+
+.sign {
+  justify-content: center;
+  margin-left: 450px;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+.ash {
+  position: absolute;
+  top: 0px;
+  /* bottom: 600px; */
+  padding-left: 600px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: -12rem;
+}
+
+.under {
+
+  margin-left: 450px;
+  color: #ffffff;
+  transform: translateY(-325px);
+  font-weight: bolder;
+}
+
+.puf {
+  margin-top: 10px;
+}
+
+.puf img:hover {
+  transition: all 0.4s;
+  transform: scale(80px);
+}
+
+#cardy {
+
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+
+}
+
+#akon li {
+  color: black;
+  font-size: larger;
+}
+
+
+.modal-content {
+  background-color: #fff0;
+  backdrop-filter: blur(30px);
+  color: white;
+}
+
+#testimonial {
+  font-family: 'Yuji Hentaigana Akari', cursive;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.youtube {
+  justify-content: center;
+  text-align: center;
+}
+
+.accordion {
+  margin-top: 80px;
+}
+
+#ifzal {
+  padding: 70px;
+}
+
+.sov {
+  padding-left: 180px;
+}
+
+#ifzal {
+  margin-bottom: 120px;
+  padding: 12px;
+  margin-left: 50px;
+  padding: 80px;
+}
+
+#ifzal-2 {
+  margin-top: -320px;
+  margin-left: 15px;
+  padding: 96px;
+}
+
+#ifzal-3 {
+  margin-top: -210px;
+  margin-left: 15px;
+  padding: 90px;
+}
+
+
+
+#ifzal-1 h2 {
+  width: 60%;
+}
+
+.don {
+  margin-top: -100px;
+}
+
+.sov-1 {
+  margin-right: 90px;
+}
+
+#carry {
+  margin-left: 90px;
+  margin-top: -10px;
+}
+
+
+/* responsive start from Here */
+
+@media (max-width:1100px) {
+
+  #para {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Yuji Hentaigana Akari';
+    text-align: center;
+  }
+
+  .under h2 {
+    display: none;
+  }
+
+  .embedded iframe {
+    width: 300px;
+  }
+
+  #normal {
+    width: 60%;
+  }
+
+  #consaler {
+    margin-left: 90px;
+  }
+
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 96%;
+    margin-bottom: -6px;
+    font-size: small;
+  }
+
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 100%;
+    height: 150px;
+  }
+
+  .map {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: smaller;
+  }
+
+  #inbox {
+    display: none;
+  }
+
+  #sector {
+    display: none;
+  }
+
+  #same {
+    display: none;
+  }
+
+  #ifzal {
+    margin-bottom: 120px;
+    padding: 12px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+#testimonial {
+  margin: 0px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+#ifzal #testimonial {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#ifzal .sov-1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#ifzal-2 {
+  margin-top: -320px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#ifzal-3 {
+  margin-top: -210px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.offset-md-1 {
+  margin-left: 5.333333%;
+}
+
+.col-md-5 {
+  flex: 0 0 auto;
+  width: 38.666667%;
+}
+nav {
+  width: 102%;
+}
+
+
+}
+
+@media (max-width:1000px) {
+
+  #shef {
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 60%;
+    height: 60vh;
+  }
+
+  #ifzal {
+    margin-bottom: 120px;
+    padding: 12px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width:950px) {
+  .mysore {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mysorepak img {
+    width: 50%;
+    justify-content: center;
+  }
+
+  #btn-1 {
+
+    position: relative;
+    top: 476px;
+    left: 256px;
+  }
+
+  #shef {
+    width: 50%;
+  }
+
+  #sector {
+    display: none;
+  }
+
+  #cardy h2 {
+    font-size: 18px;
+  }
+
+  #cardy h2 p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:800px) {
+  #shef {
+    width: 40%;
+  }
+
+  #btn-1 {
+    position: relative;
+    top: 344px;
+    left: 192px;
+  }
+
+  .sov {
+    padding-left: 51px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #shef {
+    width: 37%;
+    height: 45vh;
+  }
+nav {
+  width: 102%;
+}
+
+.offset-md-1 {
+  margin-left: 0;
+}
+}
+
+@media(max-width: 750px) {
+  .row {
+    --bs-gutter-x: 0rem;
+  }
+
+  .row {
+    --bs-gutter-x: 0rem;
+  }
+
+  .row {
+    --bs-gutter-x: 0rem;
+  }
+
+  #ifzal-2 {
+    margin-top: -320px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+}
+
+
+@media (max-width:600px) {
+  #btn-1 {
+    position: relative;
+    top: 363px;
+    left: 188px;
+  }
+
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 96%;
+    margin-bottom: -6px;
+    font-size: small;
+  }
+
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+  }
+
+  .youtube iframe {
+    width: 500px;
+  }
+
+  #testimonial {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:550px) {
+  #btn-1 {
+    position: relative;
+    top: 317px;
+    left: 163px;
+  }
+
+  .youtube iframe {
+    width: 300px;
+  }
+
+  nav {
+    width: 102.3%;
+  }
+}
+
+@media (max-width:500px) {
+  #btn-1 {
+    position: relative;
+    top: 285px;
+    left: 140px;
+    padding: 7px;
+  }
+}
+
+@media (max-width:450px) {
+
+  #btn-1 {
+    position: relative;
+    top: 251px;
+    left: 126px;
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .row>* {
+    font-size: 14px;
+
+  }
+
+  #leds {
+
+    margin-top: 80px;
+  }
+
+}
+
+@media (max-width:400px) {
+  #btn-1 {
+    position: relative;
+    top: 206px;
+    left: 107px;
+    padding: 6px;
+    font-size: 9px;
+  }
+
+  .row>* {
+    font-size: 12px;
+
+  }
+
+  .row {
+    --bs-gutter-x: 0rem;
+  }
+}
+
+@media (max-width:350px) {
+
+  #btn-1 {
+    position: relative;
+    top: 172px;
+    left: 91px;
+    padding: 6px;
+    font-size: 9px;
+  }
+
+  #normal {
+    width: 67%;
+  }
+}
+
+@media (max-width:300px) {
+
+  #btn-1 {
+    position: relative;
+    top: 150px;
+    left: 80px;
+    padding: 5px;
+    font-size: 8px;
+  }
+}
