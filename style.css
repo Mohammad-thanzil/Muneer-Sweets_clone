@@ -19,10 +19,9 @@ body {
   margin-bottom: -34px;
 }
 
-/* .logo img {
-  width: 10%;
-  height: 2ovh;
-} */
+#nava{
+  width: 102.5%;
+}
 
 .int img:hover {
   transform: scale(105%);
@@ -37,6 +36,7 @@ body {
   overflow: hidden;
 
 }
+
 
 .card-img,
 .card-img-bottom,
